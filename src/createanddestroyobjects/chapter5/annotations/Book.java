@@ -6,6 +6,7 @@ package createanddestroyobjects.chapter5.annotations;
 )
 public class Book {
 
+  @ValidStringLength
   private String title;
   private String author;
   private int yearPublished;
@@ -63,6 +64,6 @@ public class Book {
   }
 
   public static void main(String[] args) {
-    System.out.println(new Book("title", "author", 2015, "isbn"));
+    System.out.println(new Book("", "author", 2015, "isbn"));
   }
 }
