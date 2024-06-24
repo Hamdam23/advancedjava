@@ -1,4 +1,4 @@
-package createanddestroyobjects.chapter4.generics;
+package createanddestroyobjects.chapter4;
 
 public class Main {
 

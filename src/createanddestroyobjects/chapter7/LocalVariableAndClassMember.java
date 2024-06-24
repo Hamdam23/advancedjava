@@ -1,4 +1,4 @@
-package createanddestroyobjects.chapter7.strings;
+package createanddestroyobjects.chapter7;
 
 public class LocalVariableAndClassMember {
 
